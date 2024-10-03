@@ -1,0 +1,144 @@
+body {
+    background-image: url(imgs/image.png);
+    /*encabezado estilos*/
+    margin: 0;
+    .encabezado {
+        text-align: center;
+        background-color:#ffcc00 ;
+        font-style: italic;/*cambiar tipo de letra*/
+        padding: 10px;
+    }
+    .container-list {
+        display: flex;
+    }
+    ul {
+        list-style-type: none; /* Elimina los puntos de la lista */
+        display: flex;
+    }
+    li {
+        margin-right: 20px;
+    }
+    nav {
+        display: flex;
+        justify-content: center; /* Centra el contenido horizontalmente */
+    }
+    .container {
+        display: flex;
+        gap: 10px;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .container2 {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .container3 {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .container5 {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        height: 300px;
+        margin-top: -20px;
+        align-items: center;
+        width: 400px;
+    
+    }
+    .container6 {
+        display: flex;
+    }
+
+    .boton-semicircular {
+        width: 180px; /* Ancho del botón */
+        height: 40px; /* Altura del botón */
+        border: none; /* Sin borde */
+        border-radius: 25px; /* Bordes semicirculares en los lados */
+        background-color: #ffcc00; /* Color de fondo */
+        color: black; /* Color del texto */
+        font-size: 18px; /* Tamaño de letra */
+        cursor: pointer; /* Cambia el cursor al pasar el ratón */
+        transition: background-color 0.3s; /* Transición suave para el cambio de color */
+        margin: 20px;
+        margin-top: -10px;
+    }
+    .container7 {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        height: 300px;
+        margin-top: -20px;
+        align-items: center;
+        width: 400px;
+    }
+    .container8 {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        height: 300px;
+        margin-top: -90px;
+        align-items: center;
+        width: 400px;
+       
+    }
+    .container9 {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        height: 300px;
+        margin-top: -90px;
+        align-items: center;
+        width: 400px;
+    }
+    .boton-semicircular-gris {
+        width: 180px; /* Ancho del botón */
+        height: 40px; /* Altura del botón */
+        border: none; /* Sin borde */
+        border-radius: 25px; /* Bordes semicirculares en los lados */
+        background-color: #D3D3D3; /* Color de fondo */
+        color: black; /* Color del texto */
+        font-size: 18px; /* Tamaño de letra */
+        cursor: pointer; /* Cambia el cursor al pasar el ratón */
+        transition: background-color 0.3s; /* Transición suave para el cambio de color */
+        margin: 20px;
+        margin-top: -10px;
+    }
+    .boton-pagar {
+        width: 120px; /* Ancho del botón */
+        height: 40px; /* Altura del botón */
+        border: none; /* Sin borde */
+        border-radius: 25px; /* Bordes semicirculares en los lados */
+        background-color: #ffcc00; /* Color de fondo */
+        color: black; /* Color del texto */
+        font-size: 18px; /* Tamaño de letra */
+        cursor: pointer; /* Cambia el cursor al pasar el ratón */
+        transition: background-color 0.3s; /* Transición suave para el cambio de color */
+        margin: 20px;
+        margin-top: -10px;
+       
+    }
+    .container11 {
+        position: fixed;
+        display: flex;
+        gap: 20px;
+        margin-left: 1100px;
+        margin-top: 200px;
+        width: 400px;
+        height: 200px;
+        color: black;
+        z-index: 1; /* Apila este contenedor debajo */
+        
+    }
+   .container13 {
+    display: none;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    margin-left: 500px; 
+    background-color: #D3D3D3;
+    width: 500px;
+   }
+}
